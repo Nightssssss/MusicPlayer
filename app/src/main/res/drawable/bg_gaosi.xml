@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bg_base"></item>
+    <item android:drawable="@drawable/oval"
+        android:width="500dp"
+        android:height="500dp"
+        android:top="-100dp"
+        android:left="-150dp"></item>
+</layer-list>

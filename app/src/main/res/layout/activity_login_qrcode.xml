@@ -14,7 +14,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ffffff"
-            tools:context=".login.view.LoginActivity">
+            tools:context=".login.view.LoginActivity"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
 
             <include
                 android:id="@+id/title"
@@ -37,12 +39,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp_45"
                 android:layout_below="@id/iv_qrcode"
-                android:layout_marginTop="@dimen/dp_30"
-                android:text="验证"
-                android:background="@drawable/shape_btn_login_confirm"
-                android:textColor="#ffffff"
                 android:layout_marginStart="@dimen/dp_60"
-                android:layout_marginEnd="@dimen/dp_60" />
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginEnd="@dimen/dp_60"
+                android:background="@color/themePurple"
+                android:text="验证"
+                android:textColor="#ffffff" />
 
             <TextView
                 android:id="@+id/forget_pwd"
@@ -50,18 +52,18 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/btn_login"
                 android:layout_marginStart="@dimen/dp_30"
-                android:text="@string/forget_pwd"
-                android:layout_marginTop="@dimen/dp_30" />
+                android:layout_marginTop="@dimen/dp_30"
+                android:text="@string/forget_pwd" />
 
             <TextView
                 android:id="@+id/register"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/btn_login"
-                android:text="@string/register"
-                android:layout_marginTop="@dimen/dp_30"
                 android:layout_alignParentRight="true"
-                android:layout_marginEnd="@dimen/dp_30" />
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:text="@string/register" />
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

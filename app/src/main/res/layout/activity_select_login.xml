@@ -36,7 +36,7 @@
                 android:layout_marginBottom="@dimen/dp_120"
                 android:background="@drawable/shape_btn_login"
                 android:text="@string/login_qr"
-                android:textColor="#Db2C1F" />
+                android:textColor="#000000" />
         </RelativeLayout>
         <TextView
             android:layout_width="match_parent"

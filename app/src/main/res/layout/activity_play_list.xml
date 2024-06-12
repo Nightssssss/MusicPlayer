@@ -160,7 +160,7 @@
             android:id="@+id/ll_play"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/red"
+            android:background="#ffffff"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <RelativeLayout
@@ -191,7 +191,7 @@
                         android:layout_marginStart="@dimen/dp_10"
                         android:layout_toEndOf="@+id/iv_playall"
                         android:text="@string/playall"
-                        android:textColor="#ffffff"
+                        android:textColor="#000000"
                         android:textSize="@dimen/sp_18" />
                 </RelativeLayout>
 
@@ -222,7 +222,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_55"
             android:layout_alignParentBottom="true"
-            android:background="@color/red"
+            android:background="#ffffff"
             app:layout_behavior="@string/bottom_sheet_behavior" />
     </RelativeLayout>
     </com.scwang.smartrefresh.layout.SmartRefreshLayout>

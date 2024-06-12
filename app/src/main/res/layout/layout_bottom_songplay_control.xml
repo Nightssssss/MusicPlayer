@@ -11,7 +11,7 @@
         android:id="@+id/tv_gap"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_1"
-        android:background="@color/transparent" />
+        android:background="#ffffff" />
 
     <RelativeLayout
         android:id="@+id/top"
@@ -57,7 +57,7 @@
                 android:ellipsize="marquee"
                 android:scrollHorizontally="true"
                 android:textSize="17sp"
-                android:textColor="@color/white"/>
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/tv_singer"
@@ -69,7 +69,7 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:text="音乐作者"
-                android:textColor="@color/strong_pink"
+                android:textColor="#000000"
                 android:textSize="14sp" />
         </LinearLayout>
         <LinearLayout
@@ -95,7 +95,7 @@
                 android:layout_height="24dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="5dp"
-                android:src="@mipmap/list_black" />
+                android:src="@mipmap/list_modified" />
             <ImageView
                 android:id="@+id/iv_Like"
                 android:layout_width="24dp"

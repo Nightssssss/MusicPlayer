@@ -132,6 +132,7 @@
                         android:layout_below="@+id/rv_userinfo"
                         android:orientation="horizontal"
                         android:gravity="center">
+
                     <LinearLayout
                         android:id="@+id/my_music"
                         android:layout_width="0dp"

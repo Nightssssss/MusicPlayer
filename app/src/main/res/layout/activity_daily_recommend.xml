@@ -168,7 +168,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_55"
             android:layout_alignParentBottom="true"
-            android:background="@color/red"
+            android:background="@drawable/bg_base"
             app:layout_behavior="@string/bottom_sheet_behavior" />
     </LinearLayout>
 </layout>
